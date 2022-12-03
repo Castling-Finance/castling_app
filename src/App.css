@@ -1,38 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: #000000;
   min-height: 100vh;
+
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.logo{
+  height: 6vh;
+  width: 6vh;
+  align-self: baseline;
+  
+}
+.connect_wallet{
+  min-width: 80vw;
+  text-align: left;
+  justify-content:space-between;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2vh;
+  height: 6vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title{
+
+  display: flex;
+  flex-direction: row;
+  
+}
+
+
+.title_text{
+  font-family: 'Playfair Display', serif;
+  font-size: calc(1.5vh + 2vmin);
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 1.5vh
+}
+.wallet{
+  margin-top: 1.5vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: calc(.5vh + 2vmin);
+  border-width: 2px;
+  float: left;
+  text-align: center;
+  border-radius: 16px;
+  cursor: pointer;
+  width: fit-content;
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+
+.wallet_connected{
+  margin-top: 1.5vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: calc(.5vh + 2vmin);
+  border-width: 2px;
+  float: left;
+  text-align: center;
+  border-radius: 16px;
+  cursor: pointer;
+  width: fit-content;
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+  width: 10vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cardHolder{
+  background-color: #000000;
+}
+
+.card{
+  margin: 10%;
+  min-width: 80nw;
+  background-color: #000000;
+}
+
+.cardInterface{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  border-radius: 5vw;
+}
+
+
+.top_button{
+  font-family: 'Roboto', sans-serif, bold;
+  font-size: calc(.5vh + 2vmin);
+  background-color: #ffffff;
+  text-decoration: none;
+  border: 0px;
+  width:15vw;
+  cursor: pointer;
+
 }
