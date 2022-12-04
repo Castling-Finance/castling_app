@@ -81,12 +81,14 @@
 
 .cardHolder{
   background-color: #000000;
+  border-width: 3px;
+  border-color: #ffffff;
 }
 
 .card{
   margin: 10%;
-  min-width: 80nw;
-  background-color: #000000;
+  min-width: 30vw;
+  background-color: #ffffff;
 }
 
 .cardInterface{
@@ -99,11 +101,53 @@
 
 .top_button{
   font-family: 'Roboto', sans-serif, bold;
-  font-size: calc(.5vh + 2vmin);
+  font-size: calc(1vh + 2vmin);
   background-color: #ffffff;
   text-decoration: none;
   border: 0px;
   width:15vw;
   cursor: pointer;
+}
 
+
+.deposit_pool{
+  margin-top: 2vh;
+}
+
+
+.strategy_logo{
+  width: 5vh;
+  height: 5vh;
+  margin-top: 1vh;
+}
+
+.deposit_token{
+  margin-top: 2vh;
+}
+
+.menu_item{
+  display: flex;
+  flex-direction: row;
+}
+
+.menu_text{
+  margin-left: 1vw;
+}
+
+.balance_text{
+  font-family: 'Roboto', sans-serif, bold;
+  font-size: calc(0.4vh + 2vmin);
+  margin-top: 1.5vh;
+}
+
+.depositButton{
+  font-family: 'Roboto', sans-serif, bold;
+  font-size: calc(0.4vh + 2vmin);
+  margin-top: 1.5vh;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 16px;
+  cursor: pointer;
+  width: fit-content;
+  text-decoration: none;
 }
